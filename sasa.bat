@@ -1,0 +1,1 @@
+jsonschema2pojo --source address --target C:/devworld/revizor/src/main/java --source-type JSON --annotation-style JACKSON2  --package com.sasah.revizor.maven --target-version 1.8 --commons-lang3 --omit-hashcode-and-equals --long-integers

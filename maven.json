@@ -1,0 +1,41 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 19,
+    "params": {
+      "fl": "id,g,a,v,p,ec,timestamp,tags",
+      "sort": "score desc,timestamp desc,g asc,a asc,v desc",
+      "indent": "off",
+      "q": "1:\"35379fb6526fd019f331542b4e9ae2e566c57933\"",
+      "wt": "json",
+      "rows": "20",
+      "version": "2.2"
+    }
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "docs": [
+      {
+        "id": "org.eclipse.jetty:jetty-webapp:7.3.0.v20110203",
+        "g": "org.eclipse.jetty",
+        "a": "jetty-webapp",
+        "v": "7.3.0.v20110203",
+        "p": "jar",
+        "timestamp": 1296751450000,
+        "tags": [
+          "application",
+          "support",
+          "jetty"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          "-config.jar",
+          ".jar",
+          ".pom"
+        ]
+      }
+    ]
+  }
+}
